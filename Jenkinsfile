@@ -1,22 +1,10 @@
 pipeline {
     agent any
-
     stages {
-        stage ('Compile Stage') {
+        stage('Build') {
             steps {
-                 withMaven(maven: 'Maven') {
-                    sh 'mvn clean compile'
-                }
+               echo 'This is a minimal pipeline.'
             }
-
         }
-        stage ('Building Stage') {
-                    steps {
-                         withMaven(maven: 'Maven') {
-                            sh 'mvn clean install'
-                        }
-                    }
-
-                }
     }
 }
