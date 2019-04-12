@@ -1,4 +1,4 @@
-package com.example.profile.demoProfile;
+package com.example.profile.DemoProfile;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
