@@ -1,4 +1,4 @@
-package com.example.profile.demoProfile.Config;
+package com.example.profile.demoProfile.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
