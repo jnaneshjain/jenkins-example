@@ -1,4 +1,4 @@
-package com.example.profile.DemoProfile;
+package com.example.Profile.DemoProfile;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
